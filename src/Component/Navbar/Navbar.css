@@ -1,0 +1,80 @@
+.navbar {
+    margin: 0px 190px;
+    padding-top: 60px;
+    display: grid;
+    justify-content: end;
+}
+
+ul {
+    display: flex;
+    gap: 113px;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'inter';
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+/* ****************** */
+
+.navanim * {
+    box-sizing: border-box;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+}
+
+.navanim li {
+    display: inline-block;
+    list-style: outside none none;
+    overflow: hidden;
+}
+
+.navanim a {
+    padding: 0.3em 0;
+    position: relative;
+    display: inline-block;
+    letter-spacing: 1px;
+    margin: 0;
+    text-decoration: none;
+}
+
+.navanim a:before,
+.navanim a:after {
+    position: absolute;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+}
+
+.navanim a:before {
+    bottom: 100%;
+    display: block;
+    height: 3px;
+    width: 100%;
+    content: "";
+    background-color: #e67e22;
+}
+
+.navanim a:after {
+    padding: 0.3em 0;
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    content: attr(data-hover);
+    color: white;
+    white-space: nowrap;
+}
+
+.navanim li:hover a,
+.navanim .current a {
+    transform: translateY(100%);
+}

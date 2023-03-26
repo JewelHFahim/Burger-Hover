@@ -1,0 +1,102 @@
+.burger-container h1 {
+  font-weight: 800;
+  font-size: 150px;
+  color: white;
+  text-align: center;
+}
+
+.burger {
+  margin-left: 35.8%;
+  position: relative;
+}
+
+.common {
+  position: absolute;
+  top: 0px;
+  transition-duration: 0.5s;
+}
+
+.twenty-three {
+}
+
+.burger:hover .twenty-three {
+  margin-top: -280px;
+}
+
+.burger:hover .twenty-two {
+  margin-top: -250px;
+  transform: rotate(-20deg);
+}
+.burger:hover .twenty-one {
+  margin-top: -127px;
+  transform: rotate(-15deg);
+  right: -80px;
+}
+
+.burger:hover .twenty {
+  margin-top: -180px;
+  transform: rotate(-20deg);
+  right: -110px;
+}
+
+.burger:hover .nineteen {
+  margin-top: -130px;
+  right: -20px;
+}
+
+.burger:hover .eighteen {
+  margin-top: -145px;
+  transform: rotate(25deg);
+  right: 90px;
+}
+
+.burger:hover .seventeen {
+  margin-top: -162px;
+  right: -35px;
+}
+
+.burger:hover .sixteen {
+  margin-top: -134px;
+  right: -35px;
+}
+
+.burger:hover .fifteen {
+  margin-top: -130px;
+  right: -55px;
+}
+
+.burger:hover .fourteen {
+  margin-top: -200px;
+  right: 70px;
+}
+
+.burger:hover .thirteen {
+  margin-top: -215px;
+  right: -95px;
+}
+
+.burger:hover .twelve {
+  margin-top: -112px;
+  right: 25px;
+}
+
+.burger:hover .eleven {
+  margin-top: -60px;
+  right: -37px;
+}
+
+.burger:hover .ten {
+  margin-top: -135px;
+  right: -50px;
+}
+
+.burger:hover .nine {
+  margin-top: -125px;
+  right: 44px;
+}
+
+.burger:hover .eight {
+  margin-top: -90px;
+  transform: rotate(-8deg);
+  right: -90px;
+}

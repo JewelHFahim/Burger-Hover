@@ -1,0 +1,21 @@
+.home-container {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    background: radial-gradient(53.44% 168.89% at 53.44% 53.75%, #FFAC30 0%, #BA7005 100%);
+}
+
+.img-yum {
+    height: 947px;
+    width: 301px;
+    position: absolute;
+    left: 306px;
+    top: 0px
+}
+
+.img-burger {
+  
+    position: absolute;
+    right: 267px;
+    top: 364px;
+}
